@@ -2,8 +2,9 @@ import parts from '../data/partsData';
 
 const loadHeads = () => {
   parts.getHeads()
-    .then((data) => {
-      console.log(data.data);
+    .then((headsArray) => {
+      const allHeads = headsArray.data;
+      return allHeads;
     })
     .catch((error) => {
       console.error(error);
@@ -12,8 +13,9 @@ const loadHeads = () => {
 
 const loadTorsos = () => {
   parts.getTorsos()
-    .then((data) => {
-      console.log(data.data);
+    .then((torsosArray) => {
+      const allTorsos = torsosArray;
+      return allTorsos;
     })
     .catch((error) => {
       console.error(error);
@@ -22,8 +24,9 @@ const loadTorsos = () => {
 
 const loadLegs = () => {
   parts.getLegs()
-    .then((data) => {
-      console.log(data.data);
+    .then((legsArray) => {
+      const allLegs = legsArray;
+      return allLegs;
     })
     .catch((error) => {
       console.error(error);
