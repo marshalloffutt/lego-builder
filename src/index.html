@@ -6,12 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="./favicon.ico" rel="icon" type="image/x-icon" />
   <title>Lego Builder</title>
+  <link rel="stylesheet" href="index.scss">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Patua+One');
+    </style>
 </head>
 <body>
     <h1 class="d-flex justify-content-center">Lego Builder</h1>
 
     <!-- Dropdown -->
-  <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center mt-4">
 
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="headsDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,17 +41,17 @@
   </div>
 
     <!-- Name -->
-    <div class="container d-flex justify-content-center">
+    <div class="mt-4 container d-flex justify-content-center">
       <div id="head-name" class="name"></div>
       <div id="torso-name" class="name"></div>
       <div id="leg-name" class="name"></div>
     </div>
 
     <!-- Image -->
-    <div id="lego-man" class="container">
-      <div id="heads"></div>
-      <div id="torsos"></div>
-      <div id="legs"></div>
+    <div id="lego-man" class="mt-4 container d-flex justify-content-center flex-column">
+      <div id="heads" class="d-flex justify-content-center"></div>
+      <div id="torsos" class="d-flex justify-content-center"></div>
+      <div id="legs" class="d-flex justify-content-center"></div>
     </div>
 </body>
 </html>
