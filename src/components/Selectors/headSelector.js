@@ -1,12 +1,12 @@
 import $ from 'jquery';
 import parts from '../../data/partsData';
-import displaySelectedHead from '../LegoCharacter/legoCharacter';
+import displays from '../LegoCharacter/legoCharacter';
 
 const selectedHead = (clickedHeadId) => {
   parts.getHeads().then((headsArray) => {
     const allHeads = headsArray.data;
     const clickedHead = allHeads.filter(head => head.id === clickedHeadId);
-    displaySelectedHead(clickedHead);
+    displays.displaySelectedHead(clickedHead);
   });
 };
 
