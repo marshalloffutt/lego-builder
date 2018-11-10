@@ -9,4 +9,16 @@ const displaySelectedHead = (clickedHead) => {
   $('#head-name').html(nameString);
 };
 
-export default displaySelectedHead;
+const displaySelectedTorso = (clickedTorso) => {
+  let domString = '';
+  domString += `<img src=${clickedTorso[0].imageUrl}>`;
+  let nameString = '';
+  nameString += `<p>${clickedTorso[0].name}</p>`;
+  $('#torsos').html(domString);
+  $('#torso-name').html(nameString);
+};
+
+export default {
+  displaySelectedHead,
+  displaySelectedTorso,
+};
