@@ -5,6 +5,7 @@ import clickyHead from './components/Selectors/headSelector';
 import clickyTorso from './components/Selectors/torsoSelector';
 import clickyLeg from './components/Selectors/legSelector';
 import saveButtonEvent from './components/SavedCharacter/savedCharacter';
+import randomizeButtonEvent from './components/Randomizer/randomizer';
 
 const initializeApp = () => {
   loadLegos();
@@ -12,6 +13,7 @@ const initializeApp = () => {
   clickyTorso();
   clickyLeg();
   saveButtonEvent();
+  randomizeButtonEvent();
 };
 
 initializeApp();

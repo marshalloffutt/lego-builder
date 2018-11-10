@@ -18,7 +18,6 @@ const printSavedCharacters = () => {
   $('#saved').html(domString);
 };
 
-
 const saveButtonEvent = () => {
   $('#saveButton').on('click', () => {
     const savedHead = $('#heads').find('img').attr('src');
