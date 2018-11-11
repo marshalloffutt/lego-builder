@@ -12,7 +12,7 @@ This project is an exploration of ES6 Modules, Axios, Promises and SASS styling 
 * ES6 Modules
 
 ### How to run this app
-Two run this app you will need two terminals - one serving up the json data and one running the app.
+To run this app you will need two terminals - one serving up the json data and one running the app.
 
 Serving up the json data
 globally install json-server: npm install -g json-server
