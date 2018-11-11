@@ -3,7 +3,7 @@ import parts from '../../data/partsData';
 
 const displayRandomizedHead = (randomizedHead) => {
   let domString = '';
-  domString += `<img class='card-img-top head-img' src=${randomizedHead.imageUrl}>`;
+  domString += `<img class='lego-img' src=${randomizedHead.imageUrl}>`;
   let nameString = '';
   nameString += `<p>${randomizedHead.name}</p>`;
   $('#heads').html(domString);
@@ -12,7 +12,7 @@ const displayRandomizedHead = (randomizedHead) => {
 
 const displayRandomizedTorso = (randomizedTorso) => {
   let domString = '';
-  domString += `<img class='card-img-top head-img' src=${randomizedTorso.imageUrl}>`;
+  domString += `<img class='lego-img' src=${randomizedTorso.imageUrl}>`;
   let nameString = '';
   nameString += `<p>${randomizedTorso.name}</p>`;
   $('#torsos').html(domString);
@@ -21,7 +21,7 @@ const displayRandomizedTorso = (randomizedTorso) => {
 
 const displayRandomizedLeg = (randomizedLeg) => {
   let domString = '';
-  domString += `<img class='card-img-top head-img' src=${randomizedLeg.imageUrl}>`;
+  domString += `<img class='lego-img' src=${randomizedLeg.imageUrl}>`;
   let nameString = '';
   nameString += `<p>${randomizedLeg.name}</p>`;
   $('#legs').html(domString);

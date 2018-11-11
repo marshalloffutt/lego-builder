@@ -8,9 +8,9 @@ const printSavedCharacters = () => {
   savedCharactersArray.forEach((savedCharacter) => {
     domString += `
       <div class="card saved-card col-2 m-4">
-        <img class="saved-head" src="${savedCharacter.savedHead}">
-        <img class="saved-torso" src="${savedCharacter.savedTorso}">
-        <img class="saved-leg" src="${savedCharacter.savedLeg}">
+        <img class="thumb-img" src="${savedCharacter.savedHead}">
+        <img class="thumb-img" src="${savedCharacter.savedTorso}">
+        <img class="thumb-img" src="${savedCharacter.savedLeg}">
         <p class="mt-2">${savedCharacter.savedName}</p>
       </div>
       `;
