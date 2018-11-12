@@ -4,7 +4,7 @@ import displays from '../LegoCharacter/legoCharacter';
 
 const selectedHead = (clickedHeadId) => {
   parts.getHeads().then((headsArray) => {
-    const allHeads = headsArray.data;
+    const allHeads = headsArray;
     const clickedHead = allHeads.filter(head => head.id === clickedHeadId);
     displays.displaySelectedHead(clickedHead);
   });
