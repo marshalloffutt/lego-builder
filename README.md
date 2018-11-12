@@ -12,19 +12,22 @@ This project is an exploration of ES6 Modules, Axios, Promises and SASS styling 
 * ES6 Modules
 
 ### How to run this app
-To run this app you will need two terminals - one serving up the json data and one running the app.
+To run this app you will need a firebase account and a new project.
 
-### Serving up the json data
-globally install json-server:
-```
-npm install -g json-server
-```
+Configure Firebase
+in the db folder, rename apiKeys.json.example to apiKeys.json
+Add in the config object from your firebase project
+Serve up the app
+At the root of the project: npm install
+npm start
 
-Use npm to run the json:
+1.  Serving up the json data
+* globally install json-server: `npm install -g json-server`
+* use npm to run the json: `npm run data`
 
-```
-npm run data
-```
+2.  Serve up the app
+* At the root of the project: `npm install`
+* `npm start`
 
 ### Serve up the app
 At the root of the project: 
