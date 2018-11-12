@@ -9,6 +9,7 @@ This project is an exploration of ES6 Modules, Axios, Promises and SASS styling 
 * SASS
 * Webpack
 * Axios
+* Firebase
 * ES6 Modules
 
 ### How to run this app
