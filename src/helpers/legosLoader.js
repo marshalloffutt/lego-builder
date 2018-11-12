@@ -4,8 +4,8 @@ import displays from '../components/LegoCharacter/legoCharacter';
 
 const loadHeads = () => {
   parts.getHeads()
-    .then((headsArray) => {
-      const allHeads = headsArray.data;
+    .then((heads) => {
+      const allHeads = heads;
       dropdown.headsInDropdown(allHeads);
       displays.initialHead(allHeads);
     })
@@ -16,8 +16,8 @@ const loadHeads = () => {
 
 const loadTorsos = () => {
   parts.getTorsos()
-    .then((torsosArray) => {
-      const allTorsos = torsosArray.data;
+    .then((torsos) => {
+      const allTorsos = torsos;
       dropdown.torsosInDropdown(allTorsos);
       displays.initialTorso(allTorsos);
     })
@@ -28,8 +28,8 @@ const loadTorsos = () => {
 
 const loadLegs = () => {
   parts.getLegs()
-    .then((legsArray) => {
-      const allLegs = legsArray.data;
+    .then((legs) => {
+      const allLegs = legs;
       dropdown.legsInDropdown(allLegs);
       displays.initialLeg(allLegs);
     })

@@ -4,7 +4,7 @@ import displays from '../LegoCharacter/legoCharacter';
 
 const selectedTorso = (clickedTorsoId) => {
   parts.getTorsos().then((torsosArray) => {
-    const allTorsos = torsosArray.data;
+    const allTorsos = torsosArray;
     const clickedTorso = allTorsos.filter(torso => torso.id === clickedTorsoId);
     displays.displaySelectedTorso(clickedTorso);
   });

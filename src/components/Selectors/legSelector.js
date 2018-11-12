@@ -4,7 +4,7 @@ import displays from '../LegoCharacter/legoCharacter';
 
 const selectedLeg = (clickedLegId) => {
   parts.getLegs().then((legsArray) => {
-    const allLegs = legsArray.data;
+    const allLegs = legsArray;
     const clickedLeg = allLegs.filter(leg => leg.id === clickedLegId);
     displays.displaySelectedLeg(clickedLeg);
   });

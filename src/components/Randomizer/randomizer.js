@@ -30,7 +30,7 @@ const displayRandomizedLeg = (randomizedLeg) => {
 
 const randomizeHead = () => {
   parts.getHeads().then((headsArray) => {
-    const allHeads = headsArray.data;
+    const allHeads = headsArray;
     const randomNumber = Math.floor(Math.random() * allHeads.length);
     const randomizedHead = allHeads[randomNumber];
     displayRandomizedHead(randomizedHead);
@@ -39,7 +39,7 @@ const randomizeHead = () => {
 
 const randomizeTorso = () => {
   parts.getTorsos().then((torsosArray) => {
-    const allTorsos = torsosArray.data;
+    const allTorsos = torsosArray;
     const randomNumber = Math.floor(Math.random() * allTorsos.length);
     const randomizedTorso = allTorsos[randomNumber];
     displayRandomizedTorso(randomizedTorso);
@@ -48,7 +48,7 @@ const randomizeTorso = () => {
 
 const randomizeLeg = () => {
   parts.getLegs().then((legsArray) => {
-    const allLegs = legsArray.data;
+    const allLegs = legsArray;
     const randomNumber = Math.floor(Math.random() * allLegs.length);
     const randomizedLeg = allLegs[randomNumber];
     displayRandomizedLeg(randomizedLeg);

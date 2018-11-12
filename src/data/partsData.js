@@ -15,7 +15,6 @@ const getHeads = () => new Promise((resolve, reject) => {
           newHead.id = headId;
           allHeadsArray.push(newHead);
         });
-        console.log(allHeadsArray);
       }
       resolve(allHeadsArray);
     })
@@ -36,7 +35,6 @@ const getTorsos = () => new Promise((resolve, reject) => {
           newTorso.id = torsoId;
           allTorsosArray.push(newTorso);
         });
-        console.log(allTorsosArray);
       }
       resolve(allTorsosArray);
     })
@@ -57,7 +55,6 @@ const getLegs = () => new Promise((resolve, reject) => {
           newLeg.id = legId;
           allLegsArray.push(newLeg);
         });
-        console.log(allLegsArray);
       }
       resolve(allLegsArray);
     })
@@ -65,11 +62,6 @@ const getLegs = () => new Promise((resolve, reject) => {
       reject(err);
     });
 });
-
-// const getHeads = () => axios.get('http://localhost:3003/heads');
-// const getTorsos = () => axios.get('http://localhost:3003/torsos');
-// const getLegs = () => axios.get('http://localhost:3003/legs');
-
 
 export default {
   getHeads,
