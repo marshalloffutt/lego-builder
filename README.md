@@ -30,10 +30,3 @@ npm start
 2.  Serve up the app
 * At the root of the project: `npm install`
 * `npm start`
-
-### Serve up the app
-At the root of the project: 
-```
-npm install
-npm start
-```
