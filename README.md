@@ -7,6 +7,7 @@ This project is an exploration of ES6 Modules, Axios, Promises and SASS styling 
 
 ### Technologies Used
 * SASS
+* Bootstrap
 * Webpack
 * Axios
 * Firebase
