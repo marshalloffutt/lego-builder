@@ -1,0 +1,14 @@
+$white: #fff;
+$black: #333;
+$red: #E31837;
+$gold: #FFB81C;
+
+.navbar {
+  background-color: $red !important;
+}
+
+.navbar-brand {
+  color: $white !important;
+  font-family: 'Patua One', cursive;
+  font-size: 2em;
+}

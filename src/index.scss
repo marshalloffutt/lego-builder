@@ -1,7 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 
+$white: #fff;
+$black: #333;
+$red: #E31837;
+$gold: #FFB81C;
+$gray: #55595e;
+
 body {
-  background-color: rgb(90, 224, 195);
+  background-color: $gray;
 }
 
 #lego-man {
@@ -9,9 +15,12 @@ body {
   height: 380px;
   width: 380px;
   padding: 10px;
+  border: 1px solid $gold;
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 }
 
 .name {
   font-family: 'Patua One', cursive;
   font-size: 3em;
+  color: $white;
 }

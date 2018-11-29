@@ -11,56 +11,31 @@
     </style>
 </head>
 <body>
-    <h1 class="d-flex justify-content-center">Lego Builder</h1>
-
-    <!-- Dropdown -->
-  <div class="d-flex justify-content-center mt-4">
-
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="headsDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Select Head
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="headsChoices"></div>
-    </div>
-
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="torsosDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Select Torso
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="torsosChoices"></div>
-    </div>
-
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="torsosDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Select Legs
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="legsChoices"></div>
-    </div>
-
-  </div>
-
-    <!-- Name -->
+  <div id="navbar"></div>
+  <div id="legos" class="container">
+      <!-- Name -->
     <div class="mt-4 container d-flex justify-content-center" id="name">
       <div id="head-name" class="name"></div>
       <div id="torso-name" class="name"></div>
       <div id="leg-name" class="name"></div>
     </div>
-
+  
     <!-- Image -->
     <div id="lego-man" class="card mt-4 container d-flex justify-content-center flex-column">
       <div id="heads" class="d-flex justify-content-center"></div>
       <div id="torsos" class="d-flex justify-content-center"></div>
       <div id="legs" class="d-flex justify-content-center"></div>
     </div>
-
+  
     <!-- Buttons -->
     <div id="buttons-container" class="d-flex justify-content-center">
-      <button id="saveButton" type="button" class="mt-4 btn btn-primary btn-lg">Save Lego Character</button>
+      <button id="saveButton" type="button" class="mt-4 btn btn-warning btn-lg">Save Lego Character</button>
       <button id="randomizeButton" type="button" class="ml-4 mt-4 btn btn-danger btn-lg">Randomize</button>
     </div>
+  </div>
 
-    <!-- Saved Characters -->
-    <div id="saved" class="container d-flex flex-wrap"></div>
+  <!-- Saved Characters -->
+  <div id="saved" class="container d-flex flex-wrap d-flex justify-content-center"></div>
 
 </body>
 </html>

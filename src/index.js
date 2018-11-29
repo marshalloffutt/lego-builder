@@ -8,9 +8,11 @@ import clickyTorso from './components/Selectors/torsoSelector';
 import clickyLeg from './components/Selectors/legSelector';
 import saveButtonEvent from './components/SavedCharacter/savedCharacter';
 import randomizeButtonEvent from './components/Randomizer/randomizer';
+import initNavbar from './components/Navbar/navbar';
 
 const initializeApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
+  initNavbar();
   loadLegos();
   clickyHead();
   clickyTorso();
