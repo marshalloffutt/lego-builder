@@ -7,7 +7,7 @@ const printSavedCharacters = () => {
   let domString = '';
   savedCharactersArray.forEach((savedCharacter) => {
     domString += `
-      <div class="card saved-card col-2 m-4">
+      <div class="card saved-card mb-3 m-4 mt-2" style="width: 12rem;">
         <img class="thumb-img" src="${savedCharacter.savedHead}">
         <img class="thumb-img" src="${savedCharacter.savedTorso}">
         <img class="thumb-img" src="${savedCharacter.savedLeg}">
