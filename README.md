@@ -5,6 +5,8 @@ This is a small lego man builder app. The user has the ability to make a lego pe
 
 This project is an exploration of ES6 Modules, Axios, Promises and SASS styling.
 
+The current website can be viewed [here](https://lego-builder-98a4e.firebaseapp.com/).
+
 ![mainview](./images/snapshot1.png)
 ![headselect](./images/snapshot2.png)
 ![torsoselect](./images/snapshot3.png)
